@@ -19,6 +19,8 @@ class CreateStatesTable extends Migration
             $table->string('state_code');
             $table->string('state_name');
             $table->timestamps();
+            $table->foreign('country_code')->references('id')->on('countries');
+
         });
     }
 
