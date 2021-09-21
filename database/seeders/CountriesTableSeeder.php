@@ -9,7 +9,7 @@ class CountriesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
-     *
+     * 
      * @return void
      */
     public function run()
@@ -27,7 +27,6 @@ class CountriesTableSeeder extends Seeder
         DB::table("countries")->insert(["code" => "AM", "name" => addslashes("Armenia"), ]);
         DB::table("countries")->insert(["code" => "AW", "name" => addslashes("Aruba"), ]);
         DB::table("countries")->insert(["code" => "AU", "name" => addslashes("Australia"), ]);
-
         DB::table("countries")->insert(["code" => "AT", "name" => addslashes("Austria"), ]);
         DB::table("countries")->insert(["code" => "AZ", "name" => addslashes("Azerbaijan"), ]);
         DB::table("countries")->insert(["code" => "BS", "name" => addslashes("Bahamas (the)"), ]);
@@ -35,7 +34,6 @@ class CountriesTableSeeder extends Seeder
         DB::table("countries")->insert(["code" => "BD", "name" => addslashes("Bangladesh"), ]);
         DB::table("countries")->insert(["code" => "BB", "name" => addslashes("Barbados"), ]);
         DB::table("countries")->insert(["code" => "BY", "name" => addslashes("Belarus"), ]);
-
         DB::table("countries")->insert(["code" => "BE", "name" => addslashes("Belgium"), ]);
         DB::table("countries")->insert(["code" => "BZ", "name" => addslashes("Belize"), ]);
         DB::table("countries")->insert(["code" => "BJ", "name" => addslashes("Benin"), ]);
@@ -43,7 +41,6 @@ class CountriesTableSeeder extends Seeder
         DB::table("countries")->insert(["code" => "BT", "name" => addslashes("Bhutan"), ]);
         DB::table("countries")->insert(["code" => "BO", "name" => addslashes("Bolivia (Plurinational State of)"), ]);
         DB::table("countries")->insert(["code" => "BQ", "name" => addslashes("Bonaire, Sint Eustatius and Saba"), ]);
-
         DB::table("countries")->insert(["code" => "BA", "name" => addslashes("Bosnia and Herzegovina"), ]);
         DB::table("countries")->insert(["code" => "BW", "name" => addslashes("Botswana"), ]);
         DB::table("countries")->insert(["code" => "BV", "name" => addslashes("Bouvet Island"), ]);
@@ -51,7 +48,6 @@ class CountriesTableSeeder extends Seeder
         DB::table("countries")->insert(["code" => "IO", "name" => addslashes("British Indian Ocean Territory (the)"), ]);
         DB::table("countries")->insert(["code" => "BN", "name" => addslashes("Brunei Darussalam"), ]);
         DB::table("countries")->insert(["code" => "BG", "name" => addslashes("Bulgaria"), ]);
-
         DB::table("countries")->insert(["code" => "BF", "name" => addslashes("Burkina Faso"), ]);
         DB::table("countries")->insert(["code" => "BI", "name" => addslashes("Burundi"), ]);
         DB::table("countries")->insert(["code" => "CV", "name" => addslashes("Cabo Verde"), ]);
@@ -59,7 +55,6 @@ class CountriesTableSeeder extends Seeder
         DB::table("countries")->insert(["code" => "CM", "name" => addslashes("Cameroon"), ]);
         DB::table("countries")->insert(["code" => "CA", "name" => addslashes("Canada"), ]);
         DB::table("countries")->insert(["code" => "KY", "name" => addslashes("Cayman Islands (the)"), ]);
-
         DB::table("countries")->insert(["code" => "CF", "name" => addslashes("Central African Republic (the)"), ]);
         DB::table("countries")->insert(["code" => "TD", "name" => addslashes("Chad"), ]);
         DB::table("countries")->insert(["code" => "CL", "name" => addslashes("Chile"), ]);
