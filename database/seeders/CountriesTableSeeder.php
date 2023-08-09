@@ -266,7 +266,7 @@ class CountriesTableSeeder extends Seeder
         DB::table("countries")->insert(["code" => "TO", "name" => addslashes("Tonga"), ]);
         DB::table("countries")->insert(["code" => "TT", "name" => addslashes("Trinidad and Tobago"), ]);
         DB::table("countries")->insert(["code" => "TN", "name" => addslashes("Tunisia"), ]);
-        DB::table("countries")->insert(["code" => "TR", "name" => addslashes("Turkey"), ]);
+        DB::table("countries")->insert(["code" => "TR", "name" => addslashes("Türkiye"), ]);
         DB::table("countries")->insert(["code" => "TM", "name" => addslashes("Turkmenistan"), ]);
         DB::table("countries")->insert(["code" => "TC", "name" => addslashes("Turks and Caicos Islands (the)"), ]);
         DB::table("countries")->insert(["code" => "TV", "name" => addslashes("Tuvalu"), ]);
